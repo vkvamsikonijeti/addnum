@@ -10,7 +10,7 @@ class Sum {
    this.script= script
  }
 
-addition(){
+void addition(){
 this.script.stage('adding'){
    def sum = this.config.num1 + this.config.num2
 this.script.sh('echo' + $sum)
