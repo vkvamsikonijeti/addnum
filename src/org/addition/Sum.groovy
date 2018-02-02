@@ -14,7 +14,7 @@ void addition(){
     this.script.stage('adding'){
       def num1 = this.config.num1
       def num2 = this.config.num2
-      this.script.sh('echo sum is' + ((num1.toInteger()+num2.toInteger())))
+      this.script.sh('echo sum is ' + ((num1.toInteger()+num2.toInteger())))
     }
   }
 }
