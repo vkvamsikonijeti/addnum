@@ -12,7 +12,7 @@ class Sum {
 
 void addition(){
    this.script.stage('adding'){
-   def sum = this.config.num1 + this.config.num2
+   def sum = this.config.num1.toInteger() + this.config.num2.toInteger()
    this.script.sh('echo' + $sum)
      }
    }
