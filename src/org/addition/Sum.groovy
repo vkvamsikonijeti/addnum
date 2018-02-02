@@ -16,6 +16,7 @@ void addition(){
       def num2 = this.config.num2
       
    this.script.sh('echo' + num1)
+       this.script.sh('echo' + ((num1+num2)))
      }
    }
 }
