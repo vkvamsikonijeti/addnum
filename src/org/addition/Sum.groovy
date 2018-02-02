@@ -11,9 +11,9 @@ class Sum {
  }
 
 void addition(){
-this.script.stage('adding'){
+   this.script.stage('adding'){
    def sum = this.config.num1 + this.config.num2
-this.script.sh('echo' + $sum)
- }
-}
+   this.script.sh('echo' + $sum)
+     }
+   }
 }
